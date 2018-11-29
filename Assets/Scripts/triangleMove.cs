@@ -14,7 +14,7 @@ public class triangleMove : MonoBehaviour {
         else
             transform.Translate(-Vector2.right * speed * Time.deltaTime);
 
-        if (transform.position.x >= 3.5f)
+        if (transform.position.x >= 3.4f)
         {
             dirRight = false;
         }
